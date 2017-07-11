@@ -4,6 +4,9 @@
 # This installs Armadillo libraries for Qt in Ubuntu
 ## You must run this as sudo
 
+# Thanks:
+## http://www.uio.no/studier/emner/matnat/fys/FYS4411/v13/guides/installing-qt-creator/
+
 # Armadillo, LAPACK and BLAS is already installed. Just remember to link to these. In Qt Creator, just add the following line to your .pro file:
 ## `LIBS += -llapack -lblas -larmadillo`
 
